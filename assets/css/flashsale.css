@@ -1,0 +1,1086 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_flashsale{
+    background-color: rgb(239,174,46);
+}
+
+
+.top{
+    background-color: rgb(245,199,61);
+}
+.top_container_img img{
+    width: 100%;
+}
+
+.navbar_icon{
+    display: flex;
+    align-items: center;
+}
+
+.navbar_icon_img img{
+    width: 100%;
+    height: auto;
+}
+
+.icon_menu_container{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.icon_menu_container a{
+    text-decoration: none;
+}
+
+.icon_menu_icon{
+    font-size: 2rem;
+}
+
+.icon_menu_danhmucsanpham{
+    
+    background-color: white;
+    position: absolute;
+    top: 130%;
+    left: -200px;
+    border-radius: 15px;
+    width: 1200px;
+    z-index: 5;
+}
+
+.danhmucsanpham_container{
+    width: auto;
+    height: auto;
+    margin: 15px 15px;
+    margin-top: 20px;
+}
+
+.danhmucsanpham_left{
+    width: 30%;
+    border-right: 1px solid #c8c8c8;
+}
+
+.danhmucsanpham_left p{
+    font-size: 1.4em;
+    color: #7A7E7F;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+.danhmucsanpham_left ul a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.1rem;
+    color: #212121;
+    font-weight: bold;
+    
+}
+
+.book_country{
+    display: flex;
+    align-items: center;
+}
+
+.book_country p{
+    margin-left: 10px;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+
+.danhmucsanpham_topright_text{
+    width: 100%;
+    height: auto;
+}
+
+.danhmucsanpham_topright_text  ul   li a{
+    color: #737373;
+    font-size: 0.95rem;
+   
+}
+
+.danhmucsanpham_topright_text  ul   li {
+    margin: 5px 0;
+}
+
+
+.danhmucsanpham_topright_text > ul >  li:nth-child(1) a{
+    color: black;
+    font-size: 1.0rem;
+    font-weight: 550;
+}
+
+.danhmucsanpham_topright_text > ul >  li:last-child a{
+    color: rgb(33, 170, 255);
+}
+
+.danhmucsanpham_topright_text ul li {
+    list-style: none;
+}
+
+.danhmucsanpham_topright_text a{
+    font-size: 1.0rem;
+    
+}
+
+.danhmucsanpham_topright_text ul li:nth-child(1){
+    margin: 10px 0;
+}
+
+
+.danhmucsanpham_left ul a li{
+    padding: 10px 0;
+}
+
+/* ---input--- */
+.input_look{
+   width: 100%;
+   height: auto;
+}
+
+.input_container{
+    position: relative;
+}
+
+.input_container input{
+    
+    width: 100%;
+    height: 2.4rem;
+    border-radius: 10px;
+    border: 1px solid rgb(223, 223, 223);
+    padding-left: 10px;
+}
+
+.input_danhmuc{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    background-color: white;
+    border-radius: 8px;
+    top: 115%;
+    display: none;
+   
+}
+
+.input_danhmuc_container{
+    margin: 20px 20px;
+}
+
+.input_danhmuc_header{
+    background-color: rgb(254, 239, 192);
+    border-radius: 8px;
+}
+
+.input_danhmuc_header a{
+    text-decoration: none;
+}
+
+.input_danhmuc_header_container{
+    padding: 12px 15px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(240, 45, 27);
+    font-size: 1.2rem;
+}
+
+.danhmuc_icon i{
+    padding: 0 5px;
+}
+
+.input_danhmuc_mid{
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 20px;
+}
+
+.danhmuc_mid_top{
+    margin: 10px 0;
+    color: black;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.danhmuc_mid_bottom_produce{
+    display: flex;
+}
+
+.danhmuc_mid_bottom_img img{
+    width: 100%;
+    height: auto;
+}
+.danhmuc_mid_bottom_img{
+    width: 30%;
+}
+.danhmuc_mid_bottom_title{
+    width: 70%;
+    font-size: 0.9rem;
+    margin-left: 5px;
+}
+
+
+
+.input_danhmuc_bottom{
+    margin: 10px 0;
+}
+
+
+.input_danhmuc.show {
+    display: block;
+}
+
+/* .input_container.icon input[type="text"]:focus + .input_danhmuc {
+    display: block;
+} */
+
+.danhmuc_bottom_top{
+    color: black;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+.danhmuc_bottom_bottom_produce_img{
+   text-align: center;
+}
+
+.danhmuc_bottom_bottom_produce_img img{
+    width: 50%;
+    height: auto;
+    
+}
+
+.danhmuc_bottom_bottom_produce_title{
+   
+    font-size: 0.9rem;
+}
+
+/* icon menu-- */
+
+
+
+.icon_menu_danhmucsanpham{
+    position: absolute;
+    display: none;
+    
+}
+
+.narbar_icon_menu :hover .icon_menu_danhmucsanpham{
+    display: block;
+}
+
+.narbar_icon_ring{
+    
+}
+
+.narbar_icon_ring_container{
+    position: relative;
+    display: inline-block;
+    
+}
+
+.narbar_icon_ring .icon_menu_thongbao{
+    background-color: white;
+    position: absolute;
+    top: 200%;
+    left: -180px;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    display:none ;
+    
+    transition: top 0.3s ease-in; 
+}
+
+.icon_menu_thongbao_container{
+    margin: 0 10px;
+}
+
+.thongbao_ring{
+    display: flex;
+    margin: 20px 15px;
+   align-items: center;
+}
+
+.thongbao_ring i{
+    margin-right: 10px;
+}
+
+.thongbao_ring span{
+    font-size: 1.0rem;
+   font-weight: 700;
+}
+
+.thongbao_mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thongbao_mid img{
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.thongbao_mid span{
+    font-size: 1.0rem;
+}
+
+.thongbao_button{
+    margin: 20px 5px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 220px;
+    height: 40px;
+    border-radius: 8px;
+    margin: 7px 0;
+    font-size: 1.03rem;
+    font-weight: 700;
+   
+}
+
+.thongbao_dangnhap{
+    background-color: rgb(210,33,33);
+    color: #e2e2e2;
+}
+
+.thongbao_dangky{
+    border: 2px solid rgb(210,33,33);
+}
+
+.user_fb{
+    background-color: rgb(36,137,244);
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.user_fb span{
+    margin-left: 10px;
+}
+
+.narbar_icon_ring:hover .icon_menu_thongbao{
+    top:150%;
+    display: block;
+    
+}
+
+
+
+
+.icon_menu_user{
+    position: absolute;
+    background-color: white;
+    position: absolute;
+    top: 150%;
+    left: -180px;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    display:none ;
+}
+
+.narbar_icon_user_container{
+    position: relative;
+   
+}
+
+.user_container{
+    margin: 10px 10px;
+}
+
+.user_dangnhap{
+    background-color: rgb(210,33,33);
+    color: #e2e2e2;
+}
+
+.user_dangky{
+    border: 2px solid rgb(210,33,33);
+}
+
+.narbar_icon_user:hover .icon_menu_user{
+    display: block;
+}
+
+
+.flag img{
+    width: 50%;
+    height: auto;
+    padding: 0 0 0 4px;
+}
+
+.home_page{
+    background-color: rgb(240,240,240);
+    padding: 10px;
+}
+
+.narbar_icon_sp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.narbar_icon_sp p{
+    margin: 0 0;
+    font-size: 0.8rem;
+    color: #7A7E7F;
+}
+.homepage_left img{
+   width: 100%;
+   height: auto;
+   border-radius: 8px;
+}
+
+.homepage_right{
+    padding-left: 8px;
+}
+.home_page_container{
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage_right img{
+   width: 100%; 
+   border-radius: 8px;
+}
+
+
+
+/*-------------main--------- */
+
+.trangchu{
+    background-color: rgb(240,240,240);
+}
+
+.trangchu_container{
+    padding: 10px 0;
+}
+
+.trangchu_container span{
+    font-size: 0.85rem;
+    margin: 0 4px;
+}
+
+.trangchu_container span:last-child {
+    color: rgb(236,155,1);
+}
+
+
+
+.main_img img{
+    width: 100%;
+}
+
+
+/* -------------------------coupon-------------------- */
+.coupon{
+    background-color: rgb(239,174,46);
+    margin: -10px;
+}
+
+.coupon_container{
+    padding: 10px 0;
+}
+
+.coupon_img img{
+    width: 100%;
+}
+
+.coupon_tick_img img{
+    width: 100%;
+}
+
+
+.coupon_magiamgia_ticket{
+    width: auto;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    margin: 10px 10px;
+}
+
+.ticket_left_title label{
+    font-size: 1.1rem;
+    color: rgb(41, 41, 41);
+    font-weight: 800;
+    
+}
+
+.ticket_left_title{
+    margin-bottom: 60px;
+    margin-top: 10px;
+} 
+
+.ticket_left_title div{
+    margin: 3px 0;
+}
+
+.ticket_left_scroll{
+    margin:10px 0;
+    background-color: #e6e6e6;
+    height: 10px;
+    width: auto;
+    border-radius: 8px;
+}
+
+.coupon_magiamgia_ticket_mid_circle1{
+    width: 10px; /* Độ rộng của phần tử */
+  height: 5%; /* Độ cao của phần tử */
+  background-color: #F7931E; /* Màu nền */
+  border-radius: 0 0 100px 100px ; /* border-radius để tạo hình dạng nửa hình tròn */
+  overflow: hidden;
+}
+
+.coupon_magiamgia_ticket_mid{
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.ticket_bar{
+    background-color: #F7931E;
+    width: 4px;
+    height: 100%;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+.coupon_magiamgia_ticket_mid_circle2{
+    width: 10px; /* Độ rộng của phần tử */
+  height: 5%; /* Độ cao của phần tử */
+  background-color: #F7931E; /* Màu nền */
+  border-radius:  100px 100px 0 0 ; /* border-radius để tạo hình dạng nửa hình tròn */
+  overflow: hidden;
+}
+
+
+.coupon_magiamgia_ticket_right{
+    text-align: center;
+}
+
+.ticket_right_title{
+    margin: 10px 0;
+}
+
+.ticket_right_title div{
+    margin: 5px 0;
+}
+
+.ticket_right_title div:nth-child(2){
+    color: #F7931E;
+    font-weight: 800;
+}
+
+/* .{
+    
+    width: 100%;
+    height: auto;
+    
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 5px 0;
+    border-radius: 8px;
+    margin: 5px 0;
+} */
+
+.ticket_right_start{
+    color: rgb(244,157,9);
+    background-color: rgb(254,234,210);
+    width: 100%;
+    height: auto;
+    
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 5px 0;
+    border-radius: 8px;
+    margin: 5px 0;
+}
+
+.ticket_right_detail{
+    color: rgb(201,33,39);
+    border: 1px solid rgb(201,33,39);
+    width: 100%;
+    height: auto;
+    
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 5px 0;
+    border-radius: 8px;
+    margin: 5px 0;  
+}
+
+
+
+.flash_sale img{
+    width: 100%;
+}
+
+.dinhtiimg{
+    background-color: rgb(239,174,46);
+    padding: 20px 0;
+}
+
+.dinhtiimg_img img{
+    width: 100%;
+}
+
+
+.mcbooks_container{
+    padding: 20px 0;
+}
+
+.mcbooks_img img{
+    width: 100%;
+}
+
+/* -----------foooter---------- */
+
+/* ------------------swiper----------------- */
+
+.swiper{
+    padding-top: 20px;
+    background-color: rgb(240,240,240);
+}
+
+.swiper_container{
+    background-color: white;
+    padding: 10px 10px;
+    
+}
+
+.swiper_content a img{
+    width: 100%;
+}
+
+/* ----------------------flower-------------- */
+
+.flower{
+    padding: 20px;
+    background-color: rgb(240,240,240);
+}
+
+.flower_container{
+    background-color: rgb(177, 186, 190);
+    text-align: center;
+    align-items: center;
+    
+    
+}
+.flower_mix{
+   padding-left: 10px;
+}
+
+.flower_mess{
+    font-size: 1.3rem;
+}
+
+.flower_text{
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+.flower_input {
+ 
+
+  border-radius: 5px;
+  background-color: white;
+  height: auto;
+  width: 100%;
+    margin: 10px 0;
+  
+  }
+  
+  .flower-wrapper_input,
+  .flower-wrapper_button {
+
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .flower-wrapper_input{
+   display: flex;
+    outline: none;
+    align-items: center;
+    font-size: 0.7rem;
+    
+  }
+
+  .flower-wrapper_input input{
+    width: 100%;
+    border: none;
+    outline: none;
+    margin: 15px 10px;
+  }
+
+  .flower-wrapper_button {
+    background-color: rgb(247,148,30);
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    padding: 7px 30px;
+    margin: 5px 0px;
+   
+  }
+  .flower-wrapper_button button{
+    border: none;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: white;
+    background-color: rgb(247,148,30);
+  }
+
+/* --------------------iner--------------------- */
+.iner{
+    background-color: rgb(240,240,240);
+}
+
+.iner_left{
+    border-right: 1px solid #7A7E7F;
+    padding-right: -10px;
+}
+
+.iner_left div{
+    margin: 10px 0;
+    font-weight: 200;
+    color: #252525;
+    font-size: 0.85rem;
+}
+
+.iner_container{
+    background-color: white;
+    padding-top: 20px;
+}
+
+
+.iner_service label{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.iner_service a{
+    text-decoration: none;
+}
+
+.iner_service p{
+    color: #242424;
+    margin: 15px 0;
+    font-size: 0.95rem;
+}
+
+.bocongthuong img{
+    width: 25%;
+}
+
+.inerleft_social a{
+    text-decoration: none;
+}
+
+.inerleft_app img{
+    width: 30%;
+    height: auto;
+}
+
+.iner_right{
+    padding: 10px;
+}
+
+.iner_service a p {
+    transition: all 0.3s ease-in ;
+}
+
+.iner_service a p:hover{
+    margin-left: 20px;
+    color: #ea7696;
+}
+
+.iner_right_bottom label{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.iner_right_bottom_contact span{
+    color: #242424;
+    margin: 15px 0;
+    font-size: 0.95rem;
+}
+
+.top{
+    margin: 20px 0;
+}
+
+
+.iner_right_bottom_logo {
+   
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.iner_right_bottom_logo img {
+    max-width: 80%;
+    max-height: auto; /* Để hình ảnh không vượt quá chiều cao của container */
+    
+}
+
+
+.iner_right_bottom_logo:nth-child(8) img{
+    width: 40%;
+}
+.iner_right_bottom_logo:nth-child(10) img{
+    width: 40%;
+}
+
+.iner_text{
+    background-color: white;
+    padding: 20px 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.iner_text p{
+    color: #adadad;
+    font-size: 0.9rem;
+    
+}
+
+
+/* -----------------dinhti----------------- */
+
+.dinhti{
+    background-color: rgb(239,174,46);
+    padding-top: 20px;
+}
+
+
+.dinhti_content{
+    width: 100%;
+}
+.dinhti_top{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    background-color: #FCDDEF;
+    padding: 10px 0;
+}
+
+.dinhti_top img{
+    margin-left: 20px;
+}
+
+.dinhti_top  span{
+    margin-left: 10px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+
+.dinhti_mid{
+    display: flex;
+    margin: 10px 0;
+    padding-bottom: 10px;
+    align-items: center;
+    border-bottom: 1px solid #adadad;
+}
+
+.dinhti_mid a{
+    text-decoration: none;
+    font-size: 1.05rem;
+    
+}
+
+
+
+.dinhti_mid_text{
+    color: #F7931E;
+    font-weight: 700;
+    border: 1.5px solid #F7931E ;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+.dinhti_mid_textnoselect{
+    margin-left: 20px;
+    color: black;
+}
+
+.dinhti_mid_textnoselect:hover{
+    color: #F7931E;
+    font-weight: 700;
+    border: 1.5px solid #F7931E ;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+
+
+.dinhti_book_produce_img img{
+    width: 100%;
+}
+
+.dinhti_bottom_container{
+    margin: 0 10px;
+    
+}
+.dinhti_book_produce_name{
+    font-size: 1.05rem;
+    color: #333333;
+}
+
+.dinhti_book_produce_price{
+    color: #C92127;
+    margin: 3px 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.dinhti_book_produce_sale{
+    color: #888888;
+}
+
+.dinhti_book_produce_star{
+    color: #e2e2e2;
+}
+
+.dinhti_book_produce_star span{
+    color: #F7931E;
+}
+
+.dinhti_continue{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.dinhti_continue_box{
+    width: 210px;
+    height: 40px;
+    border: 2px solid #C92127;
+    border-radius: 8px;
+    color: #C92127;
+    font-size: 1.0rem;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+/* ---------------flash sale -----------------*/
+.flashsale{
+    padding-top: 10px;
+    background-color: rgb(240,240,240);
+}
+
+.flashsale_container{
+    background-color: white;
+    
+}
+
+.flashsale_top{
+    align-items: center;
+    background-color: rgb(252,218,176);
+    height: 50px;
+    display: flex;
+}
+.flashsale_top_img{
+    margin-left: 10px;
+}
+.flashsale_top_img img{
+    width: 25px;
+}
+.flashsale_top_content a{
+    font-size: 1.18rem;
+    font-weight: 550;
+    margin-left: 10px;
+    color: black;
+    text-decoration: none;
+}
+.flashsale_top_start{
+    font-size: 1.0rem;
+}
+.flashsale_top_brick{
+    padding: 0 10px;
+}
+.box{
+    width: 2px;
+    height: 20px;
+    background-color: rgb(100,100,100);
+}
+
+.flashsale_bottom{
+background-color: white;
+}
+
+.time_items a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.flashsale_top_time{
+    display: flex;
+    
+}
+
+.flashsale_mainimg img{
+    width: 100%;
+}
+
+.time_items {
+    text-align: center;
+}
+
+.time_items_time{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.time_items_text{
+    font-size: 1.05rem;
+    margin-top: 5px;
+}
+/* ------------flashsale-------------- */
+
+
+
+.dinhti_container{
+    margin-top: 10px;
+    background-color: white;
+}
+.time_box{
+    width: auto;
+    height: auto;
+    background-color: white;
+}
+
+.flashsale_top_time{
+    margin-left: 5px;
+}
+
+.flashsale_top_time div{
+    margin: 0 2px;
+    padding: 2px 6px;
+    font-size: 1.0rem;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+.time_red{
+    color: red !important;
+}

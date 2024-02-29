@@ -1,0 +1,107 @@
+.flashsale3{
+    padding-top: 10px;
+    background-color: rgb(239,174,46);
+}
+
+.flashsale3_container{
+    background-color: white;
+    
+}
+
+.flashsale3_top{
+    align-items: center;
+    background-color: rgb(252,218,176);
+    height: 50px;
+    display: flex;
+}
+.flashsale3_top_img{
+    margin-left: 10px;
+}
+.flashsale3_top_img img{
+    width: 25px;
+}
+.flashsale3_top_content a{
+    font-size: 1.18rem;
+    font-weight: 550;
+    margin-left: 10px;
+    color: black;
+    text-decoration: none;
+}
+.flashsale3_top_start{
+    font-size: 1.0rem;
+}
+.flashsale3_top_brick{
+    padding: 0 10px;
+}
+.box{
+    width: 2px;
+    height: 20px;
+    background-color: rgb(100,100,100);
+}
+
+.flashsale3_bottom{
+background-color: white;
+}
+.books_items a{
+    text-decoration: none;
+}
+.books_items img{
+    width: 100%;
+    height: auto;
+}
+
+.flashsale3_bookname {
+    font-size: 0.98rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+}
+
+.flashsale3_price{
+    font-size: 1.10rem;
+    color: rgb(247,148,31);
+    font-weight: 600;
+}
+
+.flashsale3_price_specal s{
+    color:  rgb(169,169,169);
+}
+
+.flashsale3_sell{
+    background-color: rgb(210,33,33);
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.books_items:hover{
+    box-shadow: 2px 2px 4px  rgb(236, 236, 236) ;
+    bottom: 10px;
+}
+
+.flashsale3_bottom_more{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  
+    
+  
+
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.flashsale3_bottom_more a{
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient( rgb(254,149,4),rgb(247,108,86));
+    width: 220px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px 10px;
+    text-decoration: none;
+    align-items: center;
+}
+
